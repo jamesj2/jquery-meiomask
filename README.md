@@ -1,6 +1,8 @@
 # Warning: Unmaintained project
 If you are interested on maintaining the project feel encouraged to message me so I can give you some instructions and most importantly, admin access.
 
+# This fork: rename $.mask to $.meiomask to stop conflict with jquery maskedinput plugin.
+
 [![Build Status](https://travis-ci.org/fabiomcosta/jquery-meiomask.png?branch=master)](https://travis-ci.org/fabiomcosta/jquery-meiomask)
 [![Code Climate](https://codeclimate.com/github/fabiomcosta/jquery-meiomask.png)](https://codeclimate.com/github/fabiomcosta/jquery-meiomask)
 
