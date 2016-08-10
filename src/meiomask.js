@@ -82,7 +82,7 @@
     };
 
     $.extend({
-        mask: {
+        meiomask: {
 
             // the mask rules. You may add yours!
             // number rules will be overwritten
@@ -750,7 +750,7 @@
 
             //deprecated
             unmaskedVal: function(el) {
-                return $(el).val().replace($.mask.fixedCharsRegG, '');
+                return $(el).val().replace($.meiomask.fixedCharsRegG, '');
             }
 
         }
@@ -758,14 +758,14 @@
 
     $.fn.extend({
         setMask: function(options) {
-            return $.mask.set(this, options);
+            return $.meiomask.set(this, options);
         },
         unsetMask: function() {
-            return $.mask.unset(this);
+            return $.meiomask.unset(this);
         },
         //deprecated
         unmaskedVal: function() {
-            return $.mask.unmaskedVal(this[0]);
+            return $.meiomask.unmaskedVal(this[0]);
         }
     });
 })(jQuery);
